@@ -6,7 +6,7 @@ class SeachBar extends React.Component {
     //    console.log(event.target.value); 
     // }
 
-    state = { term: 'Hi there!'}; 
+    state = { term: ''}; 
     
     onFormSubmit = (event) => {
         event.preventDefault(); 
